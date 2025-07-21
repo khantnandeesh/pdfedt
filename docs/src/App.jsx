@@ -4,82 +4,509 @@ import React, { useState, useEffect, useRef } from 'react';
 const App = () => {
   // State to store the HTML code entered by the user
   const [htmlCode, setHtmlCode] = useState(`
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>My Document</title>
-      <!-- Ensure Inter font is loaded for consistent rendering -->
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-      <style>
-        body {
-          font-family: 'Inter', sans-serif;
-          margin: 20px;
-          padding: 20px;
-          background-color: #f0f4f8;
-          color: #334155;
-          line-height: 1.6;
-        }
-        .container {
-          max-width: 800px;
-          margin: 0 auto;
-          background-color: #ffffff;
-          padding: 30px;
-          border-radius: 12px;
-          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-          color: #1e293b;
-          text-align: center;
-          margin-bottom: 25px;
-        }
-        p {
-          margin-bottom: 15px;
-        }
-        ul {
-          list-style-type: disc;
-          margin-left: 20px;
-          margin-bottom: 15px;
-        }
-        li {
-          margin-bottom: 8px;
-        }
-        .footer {
-          text-align: center;
-          margin-top: 30px;
-          font-size: 0.9em;
-          color: #64748b;
-        }
-        .highlight {
-          background-color: #e0f2fe;
-          padding: 5px 10px;
-          border-radius: 6px;
-          font-weight: bold;
-        }
-      </style>
-    </head>
-    <body>
-      <div class="container">
-        <h1>Welcome to Your HTML Document</h1>
-        <p>This is a simple HTML document that you can edit in the editor above. Changes will be reflected in the preview below.</p>
-        <p>You can add your own <span class="highlight">HTML tags</span>, styling, and content here. For example, try adding an image or a table!</p>
-        <ul>
-          <li>Item 1: Double-click to edit this text.</li>
-          <li>Item 2: Add more list items.</li>
-          <li>Item 3: Experiment with different HTML elements.</li>
-        </ul>
-        <p>Once you are satisfied with your document, you can click the "Download PDF" button to convert it into a PDF file.</p>
-        <div class="footer">
-          <p>&copy; 2025 HTML Editor. All rights reserved.</p>
-        </div>
-      </div>
-    </body>
-    </html>
+  <html xmlns="http://www.w3.org/1999/xhtml" class="hydrated"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Registration Forms</title>
+<style type="text/css">
+
+.style2 {font-size: 24px}
+.style4 {
+  font-size: 18px;
+  color: #666666;
+}
+.style6 {font-size: 18px}
+.style7 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.style10 {color: #666666; font-weight: bold; }
+.style13 {color: #000000; font-weight: bold; }
+.style14 {font-size: 18px; font-weight: bold; }
+.style15 {font-weight: bold;}
+</style>
+<style type="text/css">
+.break
+    {
+        page-break-before: always;
+    }
+</style>
+
+<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20513375-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script src="chrome-extension://kapjaoifikajdcdehfdlmojlepfpkpoe/sqrx-email-notifier/sqrx-email-notifier.esm.js" type="module" data-resources-url="chrome-extension://kapjaoifikajdcdehfdlmojlepfpkpoe/sqrx-email-notifier/" data-stencil-namespace="sqrx-email-notifier" id="sqrx-email-notifier"></script><script src="chrome-extension://kapjaoifikajdcdehfdlmojlepfpkpoe/sqrx-notification-bar/sqrx-notification-bar.esm.js" type="module" data-resources-url="chrome-extension://kapjaoifikajdcdehfdlmojlepfpkpoe/sqrx-notification-bar/" data-stencil-namespace="sqrx-notification-bar" id="sqrx-notification-bar"></script><script src="chrome-extension://kapjaoifikajdcdehfdlmojlepfpkpoe/sqrx-dialog/sqrx-dialog.esm.js" type="module" data-resources-url="chrome-extension://kapjaoifikajdcdehfdlmojlepfpkpoe/sqrx-dialog/" data-stencil-namespace="sqrx-dialog" id="sqrx-dialog"></script></head>
+
+<body cz-shortcut-listen="true">
+
+
+ <!--copy 2-->
+
+ <table width="850" border="0" cellpadding="0" align="center">
+  <tbody><tr>
+    <td>
+  <!--Header Starts-->
+  <table width="850" border="1" cellpadding="0" align="center">
+  <tbody><tr>
+    <td width="126" align="center" valign="middle"><img src="https://academics.mnnit.ac.in/static/img/logo-MNNIT.jpg" width="105" height="130"></td>
+    <td width="718"><div align="center"><strong><span class="style2">Motilal Nehru National Institute of Technology<br>
+      Allahabad - 211004</span><br>
+      <span class="style6">Office of the (Dean Academics)</span><br>
+      <span class="style4">Student's Copy of Registration Form-cum-Fee Receipt <br>
+      (Odd Semester 2025-2026)</span></strong></div></td>
+  </tr>
+</tbody></table>
+
+
+
+  <!--Header Ends-->
+  <table width="850" border="1" cellpadding="6" align="center">
+    <tbody><tr>
+     <td colspan="4" align="center"><span class="style7" style="text-decoration:underline;">Enrollment Number: 20233160 </span></td>
+   </tr>
+  <tr>
+     <td align="center"><div align="left"><span class="style10">Receipt No:</span></div></td>
+   <td align="center"><div align="left"><span class="style7"></span><span class="style15">2026/ODD/BT/5/233160</span></div></td>
+  <td align="center"><div align="left"><span class="style10">Date of Generation:</span></div></td>
+  <!--<td align="left"><div align="left"><span class="style7"></span><span class="style15"> 21 Jul, 2025</span></div></td>-->
+       <td align="left"><div align="left"><span class="style7"></span><span class="style15">  Jan. 6, 2025</span></div></td>
+
+   </tr>
+  
+  <tr>
+    <td width="113"><span class="style10">Name:</span></td>
+    <td colspan="3"><strong>KHANT NANDEESH UJESH</strong></td>
+  </tr>
+  <tr>
+    <td width="113"><span class="style10">Father's Name:</span></td>
+    <td colspan="3"><strong>Khant Ujesh</strong></td>
+  </tr>
+   <tr>
+    <td width="15%"><span class="style10">Program:</span></td>
+    <td width="31%"><strong>Bachelor of Technology</strong></td>
+    <td width="24%"><span class="style10">Branch:</span></td>
+    <td width="30%"><strong>Computer Science and Engineering</strong></td>
+  </tr>
+  
+   <tr>
+     <td><span class="style10">D.O.B.</span></td>
+     <td><strong>2005-02-03</strong></td>
+     <td><span class="style10">Sem Registering for: </span></td>
+     <td><strong>5</strong></td>
+   </tr>
+   <tr>
+     <td><span class="style10">Slot Details: </span></td>
+     <td colspan="3">
+      <table width="100%" border="0" cellpadding="0" align="center">
+       <tbody><tr>
+         <td width="5%"><span class="style10">Id:</span></td>
+         <td width="20%"><span class="style15">#</span></td>
+         <td width="5%"><span class="style10">Date:</span></td>
+         <td width="25%"><span class="style15">#</span></td>
+         <td width="5%"><span class="style10"><strong>Time:</strong></span></td>
+         <td width="20%"><span class="style15">#</span></td>
+       </tr>
+      </tbody></table></td>
+   </tr>
+  
+    
+     
+        <tr>
+        <td><span class="style10">Payment Type</span></td>
+        <td> <strong>SBI MOPS</strong></td>
+        <!--<td><span class="style10">Date</span></td>
+        <td><strong></strong></td>-->
+        </tr>
+     <tr>
+     
+
+
+    <td><span class="style10">Institute Fee: </span></td>
+      <td><strong>₹ 93500 /- Only</strong></td>
+      <td><span class="style10">Reference No: </span></td>
+      <td><strong>KNP4F2E2F3E4C, </strong></td>
+    </tr>
+
+
+    
+
+          <tr>
+    <td><span class="style10">Library Dues: </span></td>
+      <td><strong>No Dues</strong></td>
+      <td><span class="style10">SBI MOPS Amount Paid: </span></td>
+      <td><strong>₹ 93500 /- Only</strong></td>
+    </tr>
+    <tr>
+      <td><span class="style10">Educational Loan: </span></td>
+      <td><strong>NO</strong></td>
+      <td><span class="style10">Fee paid by Funding agency / Scholarship / Organization: </span></td>
+      <td><strong>NO</strong></td>
+    </tr>
+        <tr>
+       <td><span class="style10">Hosteller / Day scholar: </span></td>
+      <td><strong>HOSTELLER</strong></td>
+     </tr>
+    <tr>
+      <td colspan="4">
+        <p>NOTE: 75% attendance will be counted from the alloted date of registration irrespective of actual date of registration in all the subjects.</p>
+        <p>Declaration: I will abide by the rules and regulation of Institute related to 75% mandatory attendance in all the subjects.</p>
+        <p>I hereby certify that the above information is true to the best of my Knowledge:<br><br>
+          Signature of the Student:  ______________________________________ Date: ___________________</p></td>
+    </tr>
+    <!--<tr>
+      <td colspan="4" align="center"><span class="style7"><u>Steps for On-Campus Registration</u></span></td>
+   </tr>
+  <tr>
+     <td colspan="4" align="center"><strong><u>Step <?php /*echo $cntt++;*/ ?></u>: Submission of Undertaking Form, Affidavit by Student and Affidavit by Parent/Guardian</strong></td>
+    </tr>
+    <tr>
+     <td colspan="4" height="95px" style="vertical-align:bottom;"><div align="right">Officer:___________________________ Chief Proctor:___________________________</div></td>
+   </tr>-->
+
+
+    
+  
+   <tr>
+     <td colspan="4" align="center"><strong><u>Step 1</u>: Submission of Mess Fees</strong></td>
+    </tr>
+    <tr>
+     <td><span class="style10">Hostel:</span></td>
+     <td></td>
+     <td><span class="style10">Room No:</span></td>
+     <td></td>
+   </tr>
+    <tr>
+     <td colspan="4" height="55px" style="vertical-align:bottom;"><div align="right">Officer:___________________________ Chief Warden:___________________________</div></td>
+   </tr>
+  
+
+   
+         <tr>
+         <td colspan="4" align="center"><strong><u>Step 2</u>: Submission of Undertaking Forms</strong></td>
+        </tr>
+        <tr>
+         <td colspan="4" height="55px" style="vertical-align:bottom;"><div align="right">Officer:________________________ Chief Proctor:___________________________</div></td>
+       </tr>
+    
+
+       <tr>
+         <td colspan="4" align="center"><strong><u>Step 3</u>: Counter Registration [not required due to COVID-19 situations]</strong></td>
+        </tr>
+        <tr>
+         <td colspan="4" height="55px" style="vertical-align:bottom;"><div align="right">Officer:________________________ Dean(Academics):___________________________</div></td>
+       </tr>
+ 
+   <!--
+    <tr>
+     <td colspan="4" align="center"><strong><u>Step <?php echo  $cntt; ?></u>: Issue/Renewal of Identity Card</strong></td>
+    </tr>
+    <tr>
+     <td colspan="4" height="95px" style="vertical-align:bottom;"><div align="right">Officer:___________________________ Chief Proctor:___________________________</div></td>
+   </tr>
+   -->
+    <tr>
+     <td colspan="4" align="center"><span class="style7">Note: All the above steps must be completed for your registration to be complete.</span></td>
+   </tr>
+</tbody></table>
+
+  
+  </td>
+  </tr>
+</tbody></table>
+
+<!--copy 3-->
+<p class="break"></p>
+<table width="850" border="0" cellpadding="0" align="center">
+  <tbody><tr>
+    <td>
+  <!--Header Starts-->
+  <table width="850" border="1" cellpadding="0" align="center">
+  <tbody><tr>
+    <td width="126" align="center" valign="middle"><img src="/static/img/logo-MNNIT.jpg" width="105" height="130"></td>
+    <td width="718"><div align="center"><strong><span class="style2">Motilal Nehru National Institute of Technology<br>
+      Allahabad - 211004</span><br>
+      <span class="style6">Office of the (Dean Academics)</span><br>
+      <span class="style4">Office of the Dean (Academics) Copy of Registration Form-cum-Fee Receipt <br>
+      (Odd Semester 2025-2026))</span></strong></div></td>
+  </tr>
+</tbody></table>
+
+  <!--Header Ends-->
+  <table width="850" border="1" cellpadding="6" align="center">
+   <tbody><tr>
+     <td colspan="4" align="center"><span class="style7" style="text-decoration:underline;">Enrollment Number: 20233160 </span></td>
+   </tr>
+  <tr>
+     <td align="center"><div align="left"><span class="style10">Receipt No:</span></div></td>
+   <td align="center"><div align="left"><span class="style7"></span><span class="style15">2026/ODD/BT/5/233160</span></div></td>
+  <td align="center"><div align="left"><span class="style10">Date of Generation:</span></div></td>
+  <!--<td align="left"><div align="left"><span class="style7"></span><span class="style15">21 Jul, 2025</span></div></td>-->
+        <td align="left"><div align="left"><span class="style7"></span><span class="style15"> Jan. 6, 2025</span></div></td>
+
+   </tr>
+  
+  <tr>
+    <td width="113"><span class="style10">Name:</span></td>
+    <td colspan="3"><strong>KHANT NANDEESH UJESH</strong></td>
+  </tr>
+  <tr>
+    <td width="113"><span class="style10">Father's Name:</span></td>
+    <td colspan="3"><strong>Khant Ujesh</strong></td>
+  </tr>
+   <tr>
+    <td width="15%"><span class="style10">Program:</span></td>
+    <td width="31%"><strong>Bachelor of Technology</strong></td>
+    <td width="24%"><span class="style10">Branch:</span></td>
+    <td width="30%"><strong>Computer Science and Engineering</strong></td>
+  </tr>
+   <tr>
+     <td><span class="style10">D.O.B.</span></td>
+     <td><strong>2005-02-03</strong></td>
+     <td><span class="style10">Sem Registering for: </span></td>
+     <td><strong>5</strong></td>
+   </tr>
+   <tr>
+     <td><span class="style10">Slot Details: </span></td>
+     <td colspan="3">
+      <table width="100%" border="0" cellpadding="0" align="center">
+       <tbody><tr>
+         <td width="5%"><span class="style10">Id:</span></td>
+         <td width="20%"><span class="style15">#</span></td>
+         <td width="5%"><span class="style10">Date:</span></td>
+         <td width="25%"><span class="style15">#</span></td>
+         <td width="5%"><span class="style10"><strong>Time:</strong></span></td>
+         <td width="20%"><span class="style15">#</span></td>
+       </tr>
+      </tbody></table></td>
+   </tr>
+  
+    
+     
+        <tr>
+        <td><span class="style10">Payment Type</span></td>
+        <td> <strong>SBI MOPS</strong></td>
+        <!--<td><span class="style10">Date</span></td>
+        <td><strong></strong></td>-->
+        </tr>
+     <tr>
+     
+
+
+    <td><span class="style10">Institute Fee: </span></td>
+      <td><strong>₹ 93500 /- Only</strong></td>
+      <td><span class="style10">Reference No: </span></td>
+      <td><strong>KNP4F2E2F3E4C, </strong></td>
+    </tr>
+
+
+    
+
+          <tr>
+    <td><span class="style10">Library Dues: </span></td>
+      <td><strong>No Dues</strong></td>
+      <td><span class="style10">SBI MOPS Amount Paid: </span></td>
+      <td><strong>₹ 93500 /- Only</strong></td>
+    </tr>
+    <tr>
+      <td><span class="style10">Educational Loan: </span></td>
+      <td><strong>NO</strong></td>
+      <td><span class="style10">Fee paid by Funding agency / Scholarship / Organization: </span></td>
+      <td><strong>NO</strong></td> 
+    </tr>
+    <tr>
+      <td colspan="4">
+        <p>NOTE: 75% attendance will be counted from the alloted date of registration irrespective of actual date of registration.</p>
+        <p>Declaration: I will abide by the rules and regulation of Institute related to 75% mandatory attendance.</p>
+        I hereby certify that the above information is true to the best of my Knowledge:<br><br>
+     Signature of the Student:  ______________________________________ Date: ___________________</td>
+    </tr>
+   <tr>
+      <td colspan="4">Received the Institute copy of the Challan / Demand Draft. <br>
+       <br><br>
+     Counter in Charge:  __________________________________________ Date: ____________________ &nbsp;&nbsp;&nbsp;Seal of the Institute </td>
+    </tr>
+   
+</tbody></table>
+
+  
+  </td>
+  </tr>
+</tbody></table>
+
+
+
+<!--copy 4-->
+<p class="break"></p>
+<table width="850" border="0" cellpadding="0" align="center">
+  <tbody><tr>
+    <td>
+  <!--Header Starts-->
+  <table width="850" border="1" cellpadding="0" align="center">
+  <tbody><tr>
+    <td width="126" align="center" valign="middle"><img src="/static/img/logo-MNNIT.jpg" width="105" height="130"></td>
+    <td width="718"><div align="center"><strong><span class="style2">Motilal Nehru National Institute of Technology<br>
+      Allahabad - 211004</span><br>
+      <span class="style6">Office of the (Dean Academics)</span><br>
+      <span class="style4">Office of the Dean (Academics) Copy of Registration Form-cum-Fee Receipt <br>
+      (Odd Semester 2025-2026))</span></strong></div></td>
+  </tr>
+</tbody></table>
+        <table width="850" border="1" cellpadding="6" align="center">
+   <tbody><tr>
+     <td colspan="4" align="center"><span class="style7" style="text-decoration:underline;">Enrollment Number: 20233160 </span></td>
+   </tr>
+  <tr>
+     <td align="center"><div align="left"><span class="style10">Receipt No:</span></div></td>
+   <td align="center"><div align="left"><span class="style7"></span><span class="style15">2026/ODD/BT/5/233160</span></div></td>
+  <td align="center"><div align="left"><span class="style10">Date of Generation:</span></div></td>
+  <!--<td align="left"><div align="left"><span class="style7"></span><span class="style15">21 Jul, 2025</span></div></td>-->
+        <td align="left"><div align="left"><span class="style7"></span><span class="style15"> Jan. 6, 2025</span></div></td>
+
+   </tr>
+
+  <tr>
+    <td width="113"><span class="style10">Name:</span></td>
+    <td colspan="3"><strong>KHANT NANDEESH UJESH</strong></td>
+  </tr>
+  <tr>
+    <td width="113"><span class="style10">Father's Name:</span></td>
+    <td colspan="3"><strong>Khant Ujesh</strong></td>
+  </tr>
+   <tr>
+    <td width="15%"><span class="style10">Program:</span></td>
+    <td width="31%"><strong>Bachelor of Technology</strong></td>
+    <td width="24%"><span class="style10">Branch:</span></td>
+    <td width="30%"><strong>Computer Science and Engineering</strong></td>
+  </tr>
+   <tr>
+       
+        <td><span class="style10">Category</span></td>
+        <td><strong></strong></td>
+       
+       
+   </tr>
+</tbody></table>
+        <br>
+<table width="850" border="1" cellpadding="6" align="center">
+
+  <tbody><tr>
+    <th>Semester</th>
+    <th>Reference No</th>
+    <th>Amount</th>
+       <th>Date Received</th>
+      <th>Mode of Payment</th>
+  </tr>
+      
+              <tr>
+                  <td>1</td>
+                  <td>KNPF93487AE4F</td>
+                  <td>Rs. 26500</td>
+                  <td>10-08-2023</td>
+                  <td>SBI MOP</td>
+              </tr>
+          
+              <tr>
+                  <td>2</td>
+                  <td>KNPCBC1A11D3B</td>
+                  <td>Rs. 95200</td>
+                  <td>31-12-2023</td>
+                  <td>SBI MOP</td>
+              </tr>
+          
+              <tr>
+                  <td>3</td>
+                  <td>KNP6415CC71C9</td>
+                  <td>Rs. 94700</td>
+                  <td>07-07-2024</td>
+                  <td>SBI MOP</td>
+              </tr>
+          
+              <tr>
+                  <td>4</td>
+                  <td>KNP736DDAA1F2</td>
+                  <td>Rs. 94700</td>
+                  <td>28-12-2024</td>
+                  <td>SBI MOP</td>
+              </tr>
+          
+              <tr>
+                  <td>5</td>
+                  <td>KNP4F2E2F3E4C</td>
+                  <td>Rs. 93500</td>
+                  <td>12-07-2025</td>
+                  <td>SBI MOP</td>
+              </tr>
+          
+
+
+
+</tbody></table>
+
+
+
+</td></tr></tbody></table>
+<!--<script> window.print(); </script>-->
+
+
+<div id="sqrx-content-container"><div class="squarex_ext_modal"><div class="squarex_ext_dialog-container"><div id="module_dialog_root__disposableFileViewer"><div class="squarex_ext_dialog squarex_ext_light squarex_ext__hidden"></div></div></div></div></div><sqrx-notification-bar id="sqrxNotificationBar" elemtitle="SquareX Safe File Viewer" class="hydrated"></sqrx-notification-bar><sqrx-email-notifier variant="light" class="hydrated"></sqrx-email-notifier><audio class="audio-output" style="display: none;"></audio><div id="volume-booster-visusalizer">
+                    <div class="sound">
+                        <div class="sound-icon"></div>
+                        <div class="sound-wave sound-wave_one"></div>
+                        <div class="sound-wave sound-wave_two"></div>
+                        <div class="sound-wave sound-wave_three"></div>
+                    </div>
+                    <div class="segments-box">
+                        <div data-range="1-20" class="segment"><span></span></div>
+                        <div data-range="21-40" class="segment"><span></span></div>
+                        <div data-range="41-60" class="segment"><span></span></div>
+                        <div data-range="61-80" class="segment"><span></span></div>
+                        <div data-range="81-100" class="segment"><span></span></div>
+                    </div>
+                </div></body></html>
   `);
 
   // Ref for the iframe to update its content
   const iframeRef = useRef(null);
+  // State for displaying messages to the user (e.g., loading, success, error)
+  const [message, setMessage] = useState('');
+  // State to track if html2canvas library is loaded
+  const [html2canvasLoaded, setHtml2canvasLoaded] = useState(false);
+
+  // Effect to dynamically load html2canvas CDN script
+  useEffect(() => {
+    const loadScript = (src, id, callback) => {
+      if (document.getElementById(id)) {
+        callback(); // Already loaded
+        return;
+      }
+      const script = document.createElement('script');
+      script.src = src;
+      script.id = id;
+      script.onload = callback;
+      script.onerror = () => console.error(`Failed to load script: ${src}`);
+      document.head.appendChild(script);
+    };
+
+    // Load html2canvas
+    loadScript('https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js', 'html2canvas-script', () => {
+      setHtml2canvasLoaded(true); // Mark html2canvas as loaded
+    });
+
+    // Cleanup function to remove script if component unmounts (optional, but good practice)
+    return () => {
+      const html2canvasScript = document.getElementById('html2canvas-script');
+      if (html2canvasScript) document.head.removeChild(html2canvasScript);
+    };
+  }, []); // Run only once on component mount
 
   // Effect to update the iframe content and add interactive editing
   useEffect(() => {
@@ -145,53 +572,85 @@ const App = () => {
     setHtmlCode(event.target.value);
   };
 
-  // Function to handle PDF download (Backend approach)
-  const handleDownloadPdf = async () => {
-    // Show a loading message to the user
-    alert('Generating PDF... Please wait.');
+  // Function to handle Image download (Frontend Only)
+  const handleDownloadImage = async () => {
+    setMessage('Generating image... Please wait.');
 
     try {
-      // Send the HTML code to your Node.js backend
-      // Replace 'http://localhost:3001/generate-pdf' with your actual backend endpoint
-      const response = await fetch('https://pdfedt.onrender.com/generate-pdf', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ html: htmlCode }),
+      // Check if html2canvas is loaded before proceeding
+      if (typeof html2canvas === 'undefined') {
+        throw new Error('html2canvas library is still loading. Please try again in a moment.');
+      }
+
+      // Get the iframe element
+      const iframeElement = iframeRef.current;
+      if (!iframeElement || !iframeElement.contentDocument || !iframeElement.contentWindow) {
+        throw new Error('Iframe element or its content not found.');
+      }
+
+      const iframeDoc = iframeElement.contentDocument;
+      const iframeHtml = iframeDoc.documentElement; // Capture the entire HTML content of the iframe
+
+      // Calculate the scrollable dimensions of the iframe content
+      const contentWidth = Math.max(
+        iframeDoc.body.scrollWidth,
+        iframeDoc.body.offsetWidth,
+        iframeHtml.clientWidth,
+        iframeHtml.scrollWidth,
+        iframeHtml.offsetWidth
+      );
+      const contentHeight = Math.max(
+        iframeDoc.body.scrollHeight,
+        iframeDoc.body.offsetHeight,
+        iframeHtml.clientHeight,
+        iframeHtml.scrollHeight,
+        iframeHtml.offsetHeight
+      );
+
+      // Generate canvas from the iframe's document element
+      const canvas = await html2canvas(iframeHtml, {
+        scale: 4, // Increased scale for better resolution
+        useCORS: true, // Important if your HTML includes images from other origins
+        logging: false, // Disable logging for cleaner console
+        width: contentWidth, // Explicitly set width to content's scrollWidth
+        height: contentHeight, // Explicitly set height to content's scrollHeight
+        windowWidth: contentWidth, // Set window width for consistent rendering within html2canvas
+        windowHeight: contentHeight, // Set window height for consistent rendering within html2canvas
+        scrollX: 0, // Ensure capture starts from top-left
+        scrollY: 0, // Ensure capture starts from top-left
+        foreignObjectRendering: true, // Attempt to improve rendering of complex CSS/SVG
+        backgroundColor: iframeDoc.body.style.backgroundColor || '#ffffff', // Ensure background is captured
+        // Ignore elements that might cause issues or are not needed in image
+        ignoreElements: (element) => {
+          return element.tagName === 'SCRIPT' || element.tagName === 'STYLE';
+        }
       });
 
-      // Check if the response is OK
-      if (response.ok) {
-        // Get the PDF as a Blob
-        const blob = await response.blob();
-        // Create a URL for the Blob
-        const url = window.URL.createObjectURL(blob);
-        // Create a temporary link element
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'document.pdf'; // Set the download file name
-        document.body.appendChild(a);
-        a.click(); // Programmatically click the link to trigger download
-        a.remove(); // Remove the link after download
-        window.URL.revokeObjectURL(url); // Clean up the URL object
+      // Convert canvas to image data URL
+      const imgDataUrl = canvas.toDataURL('image/png');
 
-        alert('PDF generated and downloaded successfully!');
-      } else {
-        // If response is not OK, read the error message from the backend
-        const errorText = await response.text();
-        alert(`Failed to generate PDF: ${errorText}`);
-      }
+      // Create a temporary link element to trigger download
+      const a = document.createElement('a');
+      a.href = imgDataUrl;
+      a.download = 'document-screenshot.png'; // Set the download file name
+      document.body.appendChild(a);
+      a.click(); // Programmatically click the link
+      a.remove(); // Clean up the link element
+
+      setMessage('Image generated and downloaded successfully!');
     } catch (error) {
-      console.error('Error generating PDF:', error);
-      alert('An error occurred while generating the PDF. Please check the console for details.');
+      console.error('Error generating image:', error);
+      setMessage(`An error occurred while generating the image: ${error.message}`);
+    } finally {
+      // Clear message after a short delay
+      setTimeout(() => setMessage(''), 5000);
     }
   };
 
   return (
     <div className="min-h-screen bg-gray-100 p-4 flex flex-col items-center font-inter">
       <h1 className="text-4xl font-bold text-gray-800 mb-6 rounded-lg p-3 shadow-md bg-white">
-        HTML Editor & PDF Generator
+        HTML Editor & Image Generator
       </h1>
 
       <div className="w-full max-w-4xl bg-white rounded-xl shadow-lg p-6 mb-6">
@@ -203,13 +662,20 @@ const App = () => {
           onChange={handleHtmlChange}
           placeholder="Enter your HTML code here..."
         />
-        {/* Download PDF button */}
+        {/* Download Image button */}
         <button
-          onClick={handleDownloadPdf}
+          onClick={handleDownloadImage}
           className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75"
+          disabled={!html2canvasLoaded} // Disable button until html2canvas is loaded
         >
-          Download PDF
+          {html2canvasLoaded ? 'Download Image' : 'Loading Libraries...'}
         </button>
+        {/* Message display area */}
+        {message && (
+          <div className="mt-4 p-3 text-center text-sm font-medium text-gray-700 bg-blue-50 rounded-lg">
+            {message}
+          </div>
+        )}
       </div>
 
       <div className="w-full max-w-4xl bg-white rounded-xl shadow-lg p-6">
