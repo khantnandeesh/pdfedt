@@ -153,7 +153,7 @@ const App = () => {
     try {
       // Send the HTML code to your Node.js backend
       // Replace 'http://localhost:3001/generate-pdf' with your actual backend endpoint
-      const response = await fetch('http://localhost:3001/generate-pdf', {
+      const response = await fetch('https://pdfedt.onrender.com/generate-pdf', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
